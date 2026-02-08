@@ -7,15 +7,16 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    background: #c9ced3;
+    background: #0f1115;
     font-family: 'Spartan', sans-serif;
+    color: #e6e8ea;
 }
 
 /* Navbar --------------------------------------- */
 .nav-wrapper {
     height: 50px;
     width: 100%;
-    background: black;
+    background: #0b0d11;
 }
 
 .nav {
@@ -29,7 +30,7 @@ body {
     font-size: 28px;
     margin: 0;
     margin-left: 25px;
-    color: white;
+    color: #f5f7fa;
 }
 
 .nav-wrapper i {
@@ -57,7 +58,7 @@ select, input, button {
     padding: 10px;
     font-size: 16px;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #2b2f36;
 }
 
 input {
@@ -74,7 +75,8 @@ input {
 .custom-select select {
     appearance: none;
     width: 100%;
-    background-color: white;
+    background-color: #141820;
+    color: #e6e8ea;
     cursor: pointer;
     height: 40px;
 }
@@ -107,14 +109,14 @@ input {
 
 button {
     cursor: pointer;
-    background: black;
-    color: rgb(220, 220, 220);
+    background: #1a1f28;
+    color: #e6e8ea;
     border: none;
     min-width: 100px;
 }
 
 #resetButton {
-    background: rgb(190, 13, 13);
+    background: #8f1d1d;
     color: white;
 }
 
@@ -139,9 +141,9 @@ button:hover {
     margin-top: 75px;
     padding: 20px;
     box-sizing: border-box;
-    background: #e7e7e7;
+    background: #141820;
     border-radius: 20px;
-    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.6);
 }
 
 .player-container {
@@ -186,13 +188,13 @@ button:hover {
 }
 
 .card {
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: #171c24;
+    border: 1px solid #2b2f36;
     border-radius: 8px;
     width: calc(100% - 40px);
     height: 250px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     display: flex;
 }
 
@@ -250,7 +252,7 @@ button:hover {
 
 .card p {
     font-size: 0.9em;
-    color: #555;
+    color: #b6bcc6;
 }
 
 .card .episode-count {
@@ -260,13 +262,13 @@ button:hover {
 
 .card .pub-date {
     font-size: 0.8em;
-    color: #777;
+    color: #8f96a3;
     margin-top: 5px;
 }
 
 .card .pub-date-alt {
     font-size: 0.8em;
-    color: #777;
+    color: #8f96a3;
     margin: 8px 0 7px 15px;
 }
 
@@ -281,7 +283,7 @@ button:hover {
 
 .icon-container i {
     font-size: 30px;
-    color: rgb(95, 95, 95);
+    color: #a6adb8;
     cursor: pointer;
 }
 
@@ -295,9 +297,9 @@ button:hover {
 .player {
     height: 400px;
     width: 400px;
-    background: #e7e7e7;
+    background: #141820;
     border-radius: 20px;
-    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.6);
     position: relative;
 }
   
@@ -346,7 +348,7 @@ button:hover {
 
 /* Progress */
 .progress-container {
-    background: #fff;
+    background: #0f1115;
     border-radius: 5px;
     cursor: pointer;
     margin: 40px 20px;
@@ -355,7 +357,7 @@ button:hover {
 }
 
 .progress {
-    background: #242323;
+    background: #3a4150;
     border-radius: 5px;
     height: 100%;
     width: 0%;
@@ -394,7 +396,7 @@ button:hover {
 
 .player-controls .fas {
     font-size: 30px;
-    color: rgb(129, 129, 129);
+    color: #c6cbd4;
     margin-right: 30px;
     cursor: pointer;
     user-select: none;
@@ -411,9 +413,9 @@ button:hover {
 
 /* Queue */
 .queue {
-    background: #e7e7e7;
+    background: #141820;
     border-radius: 20px;
-    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.6);
     height: calc(100% - 450px);
     width: 400px;
     margin-top: 25px;
@@ -426,7 +428,7 @@ button:hover {
 
 .queue-item {
     display: flex;
-    background: white;
+    background: #171c24;
     border-radius: 12px;
     margin-bottom: 10px;
 }
@@ -454,6 +456,7 @@ button:hover {
 .queue-content h3 {
     font-size: 14px;
     margin: 0;
+    color: #e6e8ea;
 }
 
 .mb-10 {
