@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showLoader();
         
         try {
-            const response = await fetch(`/api/search?q=${encodeURIComponent(searchTerm)}`);
+            const response = await fetch(`/.netlify/functions/search?q=${encodeURIComponent(searchTerm)}`);
             const data = await response.json();
         
             responseContainer.textContent = ''; // clear previous results
@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showLoader();
 
         try {
-            const response = await fetch(`/api/episodes?feedId=${feedId}&max=${count}`);
+            const response = await fetch(`/.netlify/functions/episodes?feedId=${feedId}&max=${count}`);
             const data = await response.json();
     
             responseContainer.textContent = ''; // clear previous results
